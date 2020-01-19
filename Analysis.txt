@@ -1,0 +1,11 @@
+Big O Notation:
+
+Task 0: O(1) since the number of operations are independent of the size of the input.
+
+Task 1: O(252n) since the number of operations for the elements in texts and calls lists are increased by twice based on the code, and the number of times the loop has to check the telnum_list is 250 approximately. It is O(502n) if elements are increased in both lists simultaneously.
+
+Task 2: O(203n) since all the three if-else statements would be executed for each addition made to the calls list.
+
+Task 3: O(500n) based on the approximate number of lines of code which would run if the first five letters were fulfilling the conditions along with the other conditions. 
+
+Task 4: O(6000n) is the input is increased only for the calls list, and O(10000n) if the input is increased only in the texts list.
